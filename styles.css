@@ -1,0 +1,85 @@
+   /* General page styling */
+body {
+    font-family: 'Arial', sans-serif; /* Set font family */
+    background-image: url('background.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repetition */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding to body */
+    color: rgb(40, 40, 40); /* Set default text color */
+}
+
+/* Center and style the form container */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 30px; /* Add padding inside the container */
+    margin: 20px auto; /* Center the container */
+    width: 50%; /* Set width of the container */
+    border: 2px solid rgb(200, 200, 200); /* Light grey border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Main header styling */
+h1 {
+    text-align: center; /* Center the header */
+    color: rgb(20, 100, 180); /* Use a nice blue color for the header */
+    text-decoration: underline; /* Underline the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+/* Subheader styling */
+h2 {
+    text-align: center; /* Center the subheader */
+    color: rgb(60, 60, 60); /* Darker grey for subheader */
+    margin: 15px 0; /* Margin above and below */
+}
+
+/* Contact form header styling */
+h3 {
+    text-align: center; /* Center the contact form header */
+    color: rgb(20, 100, 180); /* Same blue color for consistency */
+    text-decoration: underline; /* Underline the contact form header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+/* Label styling */
+label {
+    display: block; /* Stack labels vertically */
+    margin-top: 10px; /* Space above labels */
+    color: rgb(50, 50, 50); /* Dark grey color for labels */
+}
+
+/* Input field styling */
+input[type="text"], input[type="email"], textarea {
+    width: 100%; /* Full width of the container */
+    padding: 12px; /* Padding inside input fields */
+    margin: 8px 0; /* Margin around input fields */
+    border: 1px solid rgb(180, 180, 180); /* Light grey border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: rgb(30, 144, 255); /* Bright blue background for the button */
+    color: white; /* White text on button */
+    padding: 12px 20px; /* Padding around button text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Slightly larger font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    background-color: rgb(25, 120, 200); /* Darker blue on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center; /* Center footer text */
+    margin-top: 30px; /* Space above footer */
+    color: rgb(100, 100, 100); 
